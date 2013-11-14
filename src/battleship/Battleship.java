@@ -29,7 +29,7 @@ public class Battleship extends JFrame{
         this.numOfShips[0] = numOfDestroyers;
         this.numOfShips[1] = numOfFrigates;
         this.numOfShips[2] = numOfCarriers;        
-        this.playerOne = new Player("Sergio", this.gameLevel, 1,this.numOfShips);
+        this.playerOne = new Player("Carlos", this.gameLevel, 1,this.numOfShips);
         this.playerTwo = new Player("Milo", this.gameLevel, 2,this.numOfShips);
                 
         this.playerOnePanel = new GamePanel(gameLevel, true, playerOne, playerTwo, this);                
